@@ -47,8 +47,8 @@ pipeline {
         }
         stage('Branch') {
             agent any
-            step {
-                echo "Arnaud"
+            steps {
+                echo 'Arnaud'
             }
         }
     }
